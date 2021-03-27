@@ -60,7 +60,7 @@
                     android:scrollbars="horizontal"
                     app:layout_behavior="@string/appbar_scrolling_view_behavior"
                     app:spanCount="1"
-                    tools:listitem="@layout/list_item_movie" />
+                    tools:listitem="@layout/movie_list_item" />
 
                 <TextView
                     android:id="@+id/tv_now_playing"
@@ -103,7 +103,7 @@
                         app:spanCount="3"
                         android:clipToPadding="false"
                         android:paddingBottom="10dp"
-                        tools:listitem="@layout/list_item_movie" />
+                        tools:listitem="@layout/movie_list_item" />
                 </LinearLayout>
 
             </LinearLayout>
